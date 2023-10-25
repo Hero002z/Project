@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- USEFULL : 'cdnjs' 'font-awesome', 'W3C(cheking your site)', 'Animate.css', 'Bootsteps', 'Pexels'-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/style-tickets.css">
+    <title>Tickets</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+        <nav>
+            <ul>
+                <a href="tickets.html">
+                    <li><i class="fa-solid fa-ticket fa-sm"></i>Tickets</li>
+                </a>
+                <a href="locations.html">
+                    <li><i class="fa-solid fa-map"></i>Locations</li>
+                </a>
+                <a href="gallery.html">
+                    <li><i class="fa-regular fa-image"></i>Gallery</li>
+                </a>
+                <a href="video.html">
+                    <li><i class="fa-brands fa-instagram"></i>Video Gallery</li>
+                </a>
+                <a href="about.html">
+                    <li><i class="fa-regular fa-handshake"></i>About Us</li>
+                </a>
+            </ul>
+            <a href="contact.html" class="contact">
+                <p>Contact</p>
+            </a>
+        </nav>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- CONTENT -->
+    <div class="wrapper">
+        <!-- FILTER -->
+        <ul class="list">
+            <li class="list-item active" data-id="all">All</li>
+            <li class="list-item" data-id="london">London</li>
+            <li class="list-item" data-id="belgrade">Belgrade</li>
+            <li class="list-item" data-id="moscow">Moscow</li>
+            <li class="list-item" data-id="rome">Rome</li>
+            <li class="list-item" data-id="istanbul">Istanbul</li>
+        </ul>
+        <!-- END OF FILTER -->
+
+        <!-- TICKETS -->
+        <div class="main">
+            <div class="ticket belgrade">
+                <div class="left-part">
+                    <h1>10.600 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check1" class="label">
+                            <input type="checkbox" id="check1" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 3.500 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>07:20</h2>
+                        <p>Belgrade</p>
+                        <p>26 oct</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>19:50</h2>
+                        <p>Athens</p>
+                        <p>26 oct</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Transfer</h2>
+                        <p>12h 30m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket moscow istanbul">
+                <div class="left-part">
+                    <h1>14.450 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check2" class="label">
+                            <input type="checkbox" id="check2" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 5.500 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>12:00</h2>
+                        <p>Moscow</p>
+                        <p>16 nov</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>17:05</h2>
+                        <p>Istanbul</p>
+                        <p>16 nov</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>5h 05m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket rome">
+                <div class="left-part">
+                    <h1>12.000 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check3" class="label">
+                            <input type="checkbox" id="check3" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 2.100 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>10:30</h2>
+                        <p>Rome</p>
+                        <p>30 oct</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>16:30</h2>
+                        <p>Rimini</p>
+                        <p>31 oct</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Transfer</h2>
+                        <p>30h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket belgrade moscow">
+                <div class="left-part">
+                    <h1>30.000 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check4" class="label">
+                            <input type="checkbox" id="check4" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 6.850 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>20:25</h2>
+                        <p>Belgrade</p>
+                        <p>12 nov</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>17:05</h2>
+                        <p>Moscow</p>
+                        <p>13 nov</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Transfer</h2>
+                        <p>20h 40m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket istanbul">
+                <div class="left-part">
+                    <h1>2.000 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check5" class="label">
+                            <input type="checkbox" id="check5" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 1.200 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>14:45</h2>
+                        <p>Istanbul</p>
+                        <p>24 dec</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>15:45</h2>
+                        <p>Ankara</p>
+                        <p>24 dec</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>1h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket rome">
+                <div class="left-part">
+                    <h1>11.000 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check6" class="label">
+                            <input type="checkbox" id="check6" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 7.400 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>09:40</h2>
+                        <p>Berlin</p>
+                        <p>13 nov</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>11:50</h2>
+                        <p>Rome</p>
+                        <p>13 nov</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>2h 10m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket london">
+                <div class="left-part">
+                    <h1>27.235 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check7" class="label">
+                            <input type="checkbox" id="check7" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 5.300 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>04:30</h2>
+                        <p>London</p>
+                        <p>30 jan</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>06:20</h2>
+                        <p>Berlin</p>
+                        <p>30 jan</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>1h 50m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="left-part">
+                    <h1>33.000 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check8" class="label">
+                            <input type="checkbox" id="check8" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 2.950 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>15:40</h2>
+                        <p>Los Angeles</p>
+                        <p>13 dec</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>19:40</h2>
+                        <p>Chicago</p>
+                        <p>13 dec</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>4h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="left-part">
+                    <h1>40.500 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check9" class="label">
+                            <input type="checkbox" id="check9" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 3.750 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>21:10</h2>
+                        <p>Madrid</p>
+                        <p>05 jan</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>08:10</h2>
+                        <p>New York</p>
+                        <p>07 jan</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Transfer</h2>
+                        <p>35h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket">
+                <div class="left-part">
+                    <h1>30.415 RSD</h1>
+                    <div class="checkbox">
+                        <label for="check10" class="label">
+                            <input type="checkbox" id="check10" class="check">
+                            <span class="name">Baggage</span>
+                            <h2>+ 6.700 RSD</h2>
+                        </label>
+                    </div>
+                    <button type="submit" class="select">Select</button>
+                </div>
+                <div class="right-part">
+                    <div class="time">
+                        <h2>18:15</h2>
+                        <p>London</p>
+                        <p>20 nov</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="img/arrow.jpg" alt="arrow">
+                    </div>
+                    <div class="time">
+                        <h2>21:35</h2>
+                        <p>Paris</p>
+                        <p>20 nov</p>
+                    </div>
+                    <div class="time border">
+                        <h2>Direct</h2>
+                        <p>3h 20m</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF TICKETS -->
+    </div>
+    <!-- END OF CONTENT -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2023 &copy; Yuri Lazutin 230305</p>
+        <ul>
+            <a href="index.html">
+                <li>Home |</li>
+            </a>
+            <a href="tickets.html">
+                <li>Tickets |</li>
+            </a>
+            <a href="locations.html">
+                <li>Locations |</li>
+            </a>
+            <a href="gallery.html">
+                <li>Gallery |</li>
+            </a>
+            <a href="video.html">
+                <li>Video Gallery |</li>
+            </a>
+            <a href="about.html">
+                <li>About Us |</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- JS -->
+    <script src="main/tickets.js"></script>
+</body>
+
+</html>

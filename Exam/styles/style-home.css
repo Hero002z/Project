@@ -1,0 +1,65 @@
+.banner img {
+    width: 100%;
+}
+/* 
+INFORMATION
+*/
+.info {
+    width: 90%;
+    color: #1b3a7e;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info h1 {
+    margin: 50px auto;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: left;
+}
+/* 
+PLUSES
+*/
+.pluses {
+    display: inline-block;
+    width: 20%;
+    margin-right: 4%;
+}
+
+.pluses h2 i {
+    margin-right: 2px;
+}
+
+.pluses p {
+    text-align: center;
+}
+/* 
+PARTNERS
+*/
+.partners {
+    text-align: center;
+    color: #1b3a7e;
+}
+.partners h1 {
+    margin: 50px auto;
+}
+.name {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1%;
+}
+.name a {
+    text-decoration: none;
+    color: #1b3a7e;
+}
+.name a h2:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-out;
+}
+.name img {
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(135, 135, 135, 0.5);
+    margin-bottom: 60px;
+}

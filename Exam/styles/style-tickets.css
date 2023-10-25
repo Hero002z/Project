@@ -1,0 +1,133 @@
+/* 
+FILTER
+*/
+.list {
+    margin: 70px auto;
+    text-align: center;
+    color: #1b3a7e;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    font-size: 22px;
+}
+.list-item {
+    cursor: pointer;
+}
+.ticket {
+    display: flex;
+    margin: 70px auto;
+    color: #1b3a7e;
+    width: 800px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(135, 135, 135, 0.5);
+    border: rgba(135, 135, 135, 0.2) solid;
+}
+.active {
+    color: white;
+    background-color: #1b3a7e;
+    transition: all 0.3s;
+    border-radius: 10px;
+    transform: scale(1.05);
+    padding: 0 5px;
+}
+/* 
+TICKET
+*/
+.left-part {
+    width: 30%;
+    text-align: center;
+    border-right: rgba(100, 100, 100, 0.2) solid;
+}
+.left-part h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.left-part button {
+    background-color: orangered;
+    color: #1b3a7e;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.right-part {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.time {
+    padding: 0 20px;
+    padding-top: 45px;
+}
+.time p {
+    margin: 0;
+}
+.arrow {
+    width: 20%;
+    margin-top: 100px;
+}
+.arrow img {
+    width: 100%;
+}
+.border {
+    border-left: rgba(100, 100, 100, 0.2) solid;
+}
+/* 
+CHECKBOX
+*/
+.label {
+    display: inline-block;
+    border: 1px #1b3a7e solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.label h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.check {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    appearance: none;
+}
+.name {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 60px;
+}
+.name::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    transition: background-color 0.2s;
+}
+.name::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: white;
+    top: 3px;
+    left: 3px;
+    transition: background-color 0.2s, left 0.2s;
+}
+.check:checked + .name::before {
+    background-color: #1b3a7e;
+}
+.check:checked + .name::after {
+    left: 22px;
+}

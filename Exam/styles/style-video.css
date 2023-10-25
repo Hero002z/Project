@@ -1,0 +1,34 @@
+.wrapper {
+    margin: 0 auto;
+    color: #1b3a7e;
+    text-align: center;
+    width: 100%;
+}
+.slide {
+    display: inline-block;
+    margin-right: 2%;
+    width: 30%;
+}
+.slide iframe {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 10px 10px rgba(135, 135, 135, 0.5);
+}
+.box h1 {
+    margin: 70px 0;
+    font-size: 40px;
+}
+.box p {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.author {
+    text-align: right;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}

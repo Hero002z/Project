@@ -1,0 +1,88 @@
+/* 
+FORM
+*/
+.form {
+    width: 60%;
+    margin: 0 auto;
+}
+.form h1 {
+    color: #1b3a7e;
+    text-align: center;
+    margin: 70px 0;
+    font-size: 40px;
+}
+.error input {
+    border: red solid;
+}
+.error-label {
+    color: red;
+    display: block;
+    margin-bottom: 20px;
+}
+.area, .name, .email {
+    font-size: 18px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 5px
+}
+.submit {
+    background-color: orangered;
+    border-radius: 100px;
+    border: orangered;
+    padding: 0 10px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.submit:hover {
+    color: #1b3a7e;
+    box-shadow: 0 4px 6px rgb(250, 90, 30);
+    transition: all 0.2s ease-out;
+}
+.form form {
+    margin: 0 auto;
+}
+/* QUESTIONS */
+.most {
+    margin: 0 auto;
+    width: 60%;
+    color: #1b3a7e;
+}
+.most h1 {
+    text-align: center;
+}
+.button {
+    color: #1b3a7e;
+    border-style: none;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.button h2 {
+    text-align: center;
+    padding: 5px;
+}
+.active, .button:hover {
+    background-color: #1b3a7e;
+    color: white;
+    transition: all 0.2s ease-out;
+    border-radius: 10px;
+}
+.content {
+    max-height: 0;
+    transition: all 1.1s ease;
+    overflow: hidden;
+}
+.content ul {
+    list-style: circle;
+}
+.content p, .content ul li {
+    font-size: 18px;
+}
+.content a {
+    color: #1b3a7e;
+}
